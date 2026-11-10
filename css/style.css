@@ -9,8 +9,9 @@
     --secondary-color: #2ecc71;
     --border-color: #E4E9E5;
     --font-color: #5A6561;
+    --font-hover-background-color: #cde8d8;
     --background-color: #ffffff;
-    --secondary-background-color: #b8d7be;
+    --secondary-background-color: #F1F6F2;
 }
 
 
@@ -35,14 +36,30 @@ body {
     }
     
     a {
-        color: #fff;
+        color: var(--font-color);
         text-decoration: none;
         padding: 10px 20px;
         transition: background-color 0.3s ease;
     }
 
     a:hover {
+        background-color: var(--font-hover-background-color);
+        border-radius: 5px;
+    }
+
+    .question-button {
         background-color: var(--primary-color);
+        color: var(--background-color);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        a:hover {
+            background-color: var(--primary-color);
+            color: var(--secondary-background-color);
+        }
     }
 
 }
