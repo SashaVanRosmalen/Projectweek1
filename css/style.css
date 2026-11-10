@@ -1,16 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 :root {
     --primary-color: #155E43;
     --secondary-color: #2ecc71;
-    --border-color: #E4E9E5;
+    --border-color: #e4e9e5;
     --font-color: #5A6561;
     --font-hover-background-color: #cde8d8;
     --background-color: #ffffff;
+    --background-color-offwhite: #f1f0e5;
     --secondary-background-color: #F1F6F2;
 }
 
@@ -18,7 +19,7 @@
 /* GENERAL */
 body {
     font-family: Inter, sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--background-color-offwhite);
     color: var(--font-color);
 }
 
@@ -133,13 +134,27 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 200px;
-    height: 300px;
-    background-color: black;
+    width: 353px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    /* background-color: black; */
+    border: solid 1px var(--border-color);
+
+    .card-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     img{
-        height: 20px;
+        height: 50px;
         width: auto;
+    }
+
+    h2 {
+        font-size: 1.5rem;
     }
 }
 /* END VAKKEN ARTICLES */
