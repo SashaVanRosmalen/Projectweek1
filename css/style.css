@@ -17,20 +17,21 @@
 
 /* GENERAL */
 body {
-    font-family: monospace, sans-serif;
+    font-family: Inter, sans-serif;
     background-color: var(--background-color);
     color: var(--font-color);
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3.5rem;
+    font-weight: 500;
     color: var(--primary-color);
 }
 
 h3 {
     color: var(--font-color);
-    font-size: 0.9rem;
-    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 /* GENERAL */
@@ -97,14 +98,16 @@ h3 {
         display: flex;
         flex-direction: column;
         align-items: left;
-        width: 300px;
+        width: 750px;
+        margin-left: 100px;
+
 
         h2 {
-        
+            margin-top: 40px;
         }
 
-        p {
-        
+        h3 {
+            margin-top: 20px;
         }
     }
 
