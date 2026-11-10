@@ -1,0 +1,15 @@
+body{
+    background-color: #b8d7be;
+}
+
+.review-box{
+    width: 1100px;
+    height: 400px;
+    background-color: red;
+}
+
+.section-border{
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+}

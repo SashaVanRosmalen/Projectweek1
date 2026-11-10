@@ -46,3 +46,9 @@ body {
     }
 
 }
+
+.review-box{
+    width: 1400px;
+    height: 600px;
+    background-color: red;
+}
