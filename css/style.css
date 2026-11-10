@@ -46,8 +46,14 @@ h3 {
     padding: 10px 0;
     width: 1450px;
 
-    p{
+    span{
         font-size: 2rem;
+        color: var(--primary-color);
+    }
+
+    p{
+        font-size: 1.5rem;
+        font-weight: 600;
         color: var(--primary-color);
     }
     
@@ -86,6 +92,11 @@ h3 {
     width: 100%;
     height: 500px;
     background-color: var(--secondary-background-color);
+
+    h2 {
+        
+    }
+
 }
 /* END HERO */
 
