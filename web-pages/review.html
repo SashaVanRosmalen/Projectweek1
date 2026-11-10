@@ -3,6 +3,7 @@
 
 <head>
 <link rel="stylesheet" href="../css/review.css" >
+ <meta charset="UTF-8" />
 </head>
 
 
@@ -11,12 +12,50 @@
         </header>
 
 <body>
+    <h2 class="text-center"> Plaats je review of stel een vraag </h2>
+
  <section class="section-border">
+
 <div class="review-box">
-    ben 
+    <h3>Wat wil je weten?</h3>
+    <p>Schrijf hier je vraag die je hebt over een bepaald vak en periode.</p>
+  <select name="welk vak" class="review-drop-down">
+  <option value="Basisprogrammeren">Basisprogrammeren</option>
+  <option value="website">website</option>
+  <option value="BasisICT">BasisICT</option>
+  <option value="Burgerschap">Burgerschap</option>
+  <option value="Nederlands">Nederlands</option>
+  <option value="Engels">Engels</option>
+  <option value="Rekenen">Rekenen</option>
+  <option value="DevOps">DevOps</option>
+</select>
+ <textarea name="comment" rows="4" cols="40" placeholder="Schrijf hier je vraag"></textarea>
+</div>
+
+</section> 
+
+ <section class="section-border">
+
+<div class="review-box">
+    <h3>Wat vind jij?</h3>
+    <p>Schrijf je review over de periode die je hebt afgerond.</p>
+  <select name="welk vak" class="review-drop-down">
+  <option value="Basisprogrammeren">Basisprogrammeren</option>
+  <option value="website">website</option>
+  <option value="BasisICT">BasisICT</option>
+  <option value="Burgerschap">Burgerschap</option>
+  <option value="Nederlands">Nederlands</option>
+  <option value="Engels">Engels</option>
+  <option value="Rekenen">Rekenen</option>
+  <option value="DevOps">DevOps</option>
+</select>
+ <textarea name="comment" rows="4" cols="40" placeholder="Schrijf hier je review"></textarea>
 </div>
 </section> 
 
+<div class="text-center">
+<input class="submit-button" type="submit" value="Verzenden">
+</div>
 
 </body>
 

@@ -1,15 +1,81 @@
+/* GENERAL */
 body{
-    background-color: #b8d7be;
+    background-color: #F1F6F2;
+    font-family: monospace, sans-serif;
 }
 
+/* END GENERAL */
+
+/* REVIEW */
 .review-box{
     width: 1100px;
     height: 400px;
-    background-color: red;
+    background-color: white;
+    border-radius: 20px;
+    padding: 14px;
+
+    textarea{
+    height: 150px;
+    width: 900px;
+    margin-top: 30px;
+    background-color: #F1F6F2;
+    resize: none;
+    border-radius: 12px;    
+    padding: 12px;     
+    border-style: none;
+    }
+}
+
+.submit-button{
+    width: 140px;
+    height: 60px;
+    border-radius: 12px;
+    border-style: none;
+    font-family: monospace, sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+    background-color: white;
+}
+
+.review-drop-down{
+    width: 200px;
+    height: 40px;
+    background-color: #F1F6F2;
+    border-style: none;
+    border-radius: 8px; 
+    font-family: monospace, sans-serif;
 }
 
 .section-border{
     max-width: 1920px;
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 24px;
+    color: #155E43;
+}
+
+h4{
+    font-size: 14px;
+    color: #155E43;
+}
+
+.text-center{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#review-area{
+   
+}
+
+/* END REVIEW */
