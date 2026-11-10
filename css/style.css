@@ -5,11 +5,12 @@
 
 
 :root {
-    --primary-color: #3498db;
+    --primary-color: #155E43;
     --secondary-color: #2ecc71;
-    --font-color: #333;
-    --background-color: #f4f4f4;
-    --secondary-background-color: #e9dcb0;
+    --border-color: #E4E9E5;
+    --font-color: #5A6561;
+    --background-color: #ffffff;
+    --secondary-background-color: #b8d7be;
 }
 
 
@@ -22,7 +23,9 @@ body {
 .navigation {
     display: flex;
     margin: 0 auto;
-    background-color: var(--secondary-background-color);
+    align-items: baseline;
+    justify-content: space-evenly;
+    background-color: var(--background-color);
     color: #fff;
     padding: 10px 0;
     
