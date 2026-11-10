@@ -19,7 +19,7 @@
 /* GENERAL */
 body {
     font-family: Inter, sans-serif;
-    background-color: var(--background-color-offwhite);
+    background-color: var(--background-color);
     color: var(--font-color);
 }
 
