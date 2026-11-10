@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-color: #333;
+    --background-color: #f4f4f4;
+    --secondary-background-color: #e9dcb0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navigation {
+    display: flex;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+
+    a:hover {
+        background-color: #555;
+    }
+
+}
