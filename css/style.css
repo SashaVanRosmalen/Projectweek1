@@ -14,15 +14,15 @@
 
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: monospace, sans-serif;
+    background-color: var(--background-color);
+    color: var(--font-color);
 }
 
 .navigation {
     display: flex;
     margin: 0 auto;
-    background-color: #333;
+    background-color: var(--secondary-background-color);
     color: #fff;
     padding: 10px 0;
     
@@ -34,7 +34,7 @@ body {
     }
 
     a:hover {
-        background-color: #555;
+        background-color: var(--primary-color);
     }
 
 }
