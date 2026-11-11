@@ -1,93 +1,106 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="navigation">
-        <div>
-          <p><span>⚚</span> vooruit</p>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
 
-        <div>
-          <a href="#">Ontdek vakken</a>
-          <a href="#reviews">Reviews</a>
-          <a href="#">Vragen & Antwoorden</a>
-        </div>
+<body>
+  <header>
+    <nav class="navigation">
+      <div>
+        <p><span>+</span> vooruit</p>
+      </div>
 
-        <div>
-          <a class="question-button" href="review.html">Stel een vraag</a>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <div class="hero-text-container">
-          <h2>Je volgende periode. Een stuk wijzer.</h2>
-          <h3>
-            Nieuwe school of volgende periode? Ontdek wat je echt kunt
-            verwachten. Lees ervaringen en vraag het aan studenten die je
-            voorgangen.
-          </h3>
-        </div>
-      </section>
+      <div class="links">
+        <a href="#">Ontdek vakken</a>
+        <a href="#">Reviews</a>
+        <a href="#">Vragen & Antwoorden</a>
+      </div>
 
-      <section id="reviews" class="card-section">
-        <article class="card">
-          <div class="card-image-container">
-            <img src="../images/logo.png" alt="" />
+      <div>
+        <a class="question-button" href="#">Stel een vraag</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-text-container">
+        <h2>Je volgende periode. Een stuk wijzer.</h2>
+        <h3>
+          Nieuwe school of volgende periode? Ontdek wat je echt kunt
+          verwachten. Lees ervaringen en vraag het aan studenten die je
+          voorgangen.
+        </h3>
+      </div>
+    </section>
+
+    <section class="vakken">
+      <div>
+        <h2>Een voorbeeld van je vakken</h2>
+        <p>Minder Verassingen. Meer vertrouwen in je volgende periode</p>
+        <p>ontdek je volgende periode</p>
+      </div>
+
+      <div class="vakken-container">
+        <article>
+          <div>
+            <div class="logo-container">
+              <img src="../images/logo.png"></img>
+            </div>
             <p>Periode 1</p>
+
+            <p>Rekennen</p>
+            <p>Hier leer je rekennen enzo.</p>
+
+            <!-- ster icoon -->
+            <p>3,7 . 40 reviews</p>
           </div>
-          <h2>Programmeren</h2>
-          <p>ICT</p>
-          <p>Van je eerste regel code tot je eigen kleine applicatie.</p>
-          <h2 class="review">☆4,6-38 reviews</h2>
         </article>
 
-        <article class="card">
-          <div class="card-image-container">
-            <img src="../images/logo.png" alt="bendus" />
+        <article>
+          <img src="../images/logo.png" alt="" />
+          <div>
             <p>Periode 1</p>
+            <p>Nederlands</p>
+            <p>Hier leer je Nederlands enzo.</p>
+
+            <!-- ster icoon -->
+            <p>4 . 35 reviews</p>
           </div>
-          <h2>Basis ICT</h2>
-          <p>ICT</p>
-          <p>Hier leerde we over computers en de hardware</p>
-          <h2 class="review">☆6,7-20 reviews</h2>
         </article>
 
-        <article class="card">
-          <div class="card-image-container">
-            <img src="../images/logo.png" alt="" />
-            <p>Periode 2</p>
+        <article>
+          <img src="../images/logo.png" alt="" />
+          <div>
+            <p>Periode 1</p>
+            <p>Engels</p>
+            <p>Hier leer je Engels enzo.</p>
+
+            <!-- ster icoon -->
+            <p>2,7 . 12 reviews</p>
           </div>
-          <h2>Engels</h2>
-          <p>Basis vakken</p>
-          <p>Hier leerde we engels.</p>
-          <h2 class="review">☆2,7-17 reviews</h2>
         </article>
 
-        <article class="card">
-          <div class="card-image-container">
-            <img src="../images/logo.png" alt="" />
+        <article>
+          <img src="../images/logo.png" alt="" />
+          <div>
             <p>Periode 3</p>
-          </div>
-          <h2>Burgerschap</h2>
-          <p>Basis vakken</p>
-          <p>Hier leer je over de maatschapij</p>
-          <h2 class="review">☆4,6-31 reviews</h2>
-        </article>
-      </section>
 
-      <!-- Wat studenten zeggen en vragen van studenten -->
- 
+            <p>Burgerschap</p>
+            <p>Hier leer je Burgerschap enzo.</p>
+
+            <!-- ster icoon -->
+            <p>4,5 . 23 reviews</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Wat studenten zeggen en vragen van studenten -->
     <section>
       <!-- wat studenten zegggen -->
       <div>
@@ -95,9 +108,7 @@
           <h2>Wat studenten zeggen</h2>
           <p>Een eerlijke mening van iemand die het al heeft gedaan</p>
         </div>
- 
- 
- 
+
         <article>
           <p>Programmeren . Periode 1</p>
           <p>Je hoeft Echt nog geen code te kunnen</p>
@@ -105,9 +116,7 @@
             kom je al een heel eind. Begin wel op tijd met het eindproject
           </p>
         </article>
- 
- 
- 
+
         <article>
           <p>Design . Periode 2</p>
           <p>Veel doen, weinig stilzitten</p>
@@ -116,40 +125,35 @@
           </p>
         </article>
       </div>
- 
- 
- 
+
       <!-- Vragen van studenten -->
       <div>
         <div>
           <h2>Vragen van studenten</h2>
           <p>Hier staan veelgestelde vragen</p>
         </div>
- 
- 
- 
+
         <article>
           <p>Programmeren</p>
           <p>Welke laptop heb ik nodig voor programmeren?</p>
           <p>6 antwoorden</p>
         </article>
- 
          <article>
           <p>Bedrijfseconommie</p>
           <p>Hoeveel tijd ben je buiten de lessen kwijt?</p>
           <p>3 antwoorden</p>
         </article>
- 
          <article>
           <p>Design</p>
           <p>Moet je al met Figma kunnen werken?</p>
           <p>8 antwoorden</p>
         </article>
       </div>
+
     </section>
+  </main>
 
-    </main>
+  <footer></footer>
+</body>
 
-    <footer></footer>
-  </body>
 </html>
