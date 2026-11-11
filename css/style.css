@@ -223,19 +223,26 @@ h3 {
   font-size: 20px;
 }
 
+footer {
+  margin-top: 60px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
-footer{
-   margin-top: 60px;
-   background-color: white;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
- 
-   img{
+  img {
     height: 30px;
     width: 30px;
     margin-top: 15px;
     margin-right: 15px;
-   }
+  }
+
+  a {
+    color: var(--font-color);
+    text-decoration: none;
+  }
+  a:hover {
+    cursor: default;
+  }
 }
