@@ -1,67 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/review.css" />
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-<link rel="stylesheet" href="../css/review.css" >
- <meta charset="UTF-8" />
-</head>
+  <header>
+    <nav class="navigation">
+      <div>
+        <p><span>+</span> vooruit</p>
+      </div>
 
+      <div>
+        <a href="index.html">Ontdek vakken</a>
+        <a href="#">Vragen & Antwoorden</a>
+      </div>
 
-        <header>
+      <div>
+        <a class="question-button" href="review.html">Stel een vraag</a>
+      </div>
+    </nav>
+  </header>
 
-        </header>
+  <body>
+    <h2 class="text-center">Plaats je review of stel een vraag</h2>
 
-<body>
-    <h2 class="text-center"> Plaats je review of stel een vraag </h2>
+    <section class="section-border">
+      <div class="review-box">
+        <h3>Wat wil je weten?</h3>
+        <p>
+          Schrijf hier je vraag die je hebt over een bepaald vak en periode.
+        </p>
+        <p>Selecteer een vak</p>
+        <select name="welk vak" class="review-drop-down">
+          <option value="Basisprogrammeren">Basis programmeren</option>
+          <option value="website">website</option>
+          <option value="BasisICT">Basis ICT</option>
+          <option value="Burgerschap">Burgerschap</option>
+          <option value="Nederlands">Nederlands</option>
+          <option value="Engels">Engels</option>
+          <option value="Rekenen">Rekenen</option>
+          <option value="DevOps">DevOps</option>
+        </select>
+        <textarea
+          name="comment"
+          rows="4"
+          cols="40"
+          placeholder="Schrijf hier je vraag"
+        ></textarea>
+      </div>
+    </section>
 
- <section class="section-border">
+    <section class="section-border">
+      <div class="review-box">
+        <h3>Wat vind jij?</h3>
 
-<div class="review-box">
-    <h3>Wat wil je weten?</h3>
-    <p>Schrijf hier je vraag die je hebt over een bepaald vak en periode.</p>
-  <select name="welk vak" class="review-drop-down">
-  <option value="Basisprogrammeren">Basisprogrammeren</option>
-  <option value="website">website</option>
-  <option value="BasisICT">BasisICT</option>
-  <option value="Burgerschap">Burgerschap</option>
-  <option value="Nederlands">Nederlands</option>
-  <option value="Engels">Engels</option>
-  <option value="Rekenen">Rekenen</option>
-  <option value="DevOps">DevOps</option>
-</select>
- <textarea name="comment" rows="4" cols="40" placeholder="Schrijf hier je vraag"></textarea>
-</div>
+        <p>Schrijf je review over de periode die je hebt afgerond.</p>
+        <p class="text-inline">Selecteer in welk schooljaar je zit</p>
+        <select name="welke periode" class="review-drop-down">
+          <option value="1">schooljaar 1</option>
+          <option value="2">schooljaar 2</option>
+          <option value="3">schooljaar 3</option>
+          <option value="4">schooljaar 4</option>
+        </select>
+        <br /><br />
 
-</section> 
+        <p class="text-inline">Selecteer een periode</p>
+        <select name="welke periode" class="review-drop-down">
+          <option value="1">periode 1</option>
+          <option value="2">periode 2</option>
+          <option value="3">periode 3</option>
+          <option value="4">periode 4</option>
+          <option value="5">periode 5</option>
+          <option value="6">periode 6</option>
+          <option value="7">periode 7</option>
+          <option value="8">periode 8</option>
+        </select>
+        <textarea
+          name="comment"
+          rows="4"
+          cols="40"
+          placeholder="Schrijf hier je review"
+        ></textarea>
+      </div>
+    </section>
 
- <section class="section-border">
+    <div class="text-center">
+      <input class="submit-button" type="submit" value="Verzenden" />
+    </div>
+  </body>
 
-<div class="review-box">
-    <h3>Wat vind jij?</h3>
-    <p>Schrijf je review over de periode die je hebt afgerond.</p>
-  <select name="welk vak" class="review-drop-down">
-  <option value="Basisprogrammeren">Basisprogrammeren</option>
-  <option value="website">website</option>
-  <option value="BasisICT">BasisICT</option>
-  <option value="Burgerschap">Burgerschap</option>
-  <option value="Nederlands">Nederlands</option>
-  <option value="Engels">Engels</option>
-  <option value="Rekenen">Rekenen</option>
-  <option value="DevOps">DevOps</option>
-</select>
- <textarea name="comment" rows="4" cols="40" placeholder="Schrijf hier je review"></textarea>
-</div>
-</section> 
-
-<div class="text-center">
-<input class="submit-button" type="submit" value="Verzenden">
-</div>
-
-</body>
-
-
-<footer>
-
-</footer>
-
+  <footer>
+    <div>
+      <img src="../images/facebook.png" alt="facebook" />
+      <img src="../images/instagram.png" alt="instagram" />
+      <img src="../images/x.png" alt="twitter" />
+    </div>
+    © 2003-2026 Bendus.com, SD Inc
+  </footer>
 </html>

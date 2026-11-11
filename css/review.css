@@ -1,81 +1,184 @@
 /* GENERAL */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
 body{
     background-color: #F1F6F2;
-    font-family: monospace, sans-serif;
+    font-family: Inter, sans-serif;
 }
-
-/* END GENERAL */
-
+ 
+:root {
+    --primary-color: #155E43;
+    --secondary-color: #2ecc71;
+    --border-color: #E4E9E5;
+    --font-color: #5A6561;
+    --font-hover-background-color: #cde8d8;
+    --background-color: #ffffff;
+    --secondary-background-color: #F1F6F2;
+}
+ 
+ 
+p{
+    color: #155E43;
+ 
+}
+/* END GENERAL */  
+ 
+/* HEADER */
+.navigation {
+    display: flex;
+    margin: 0 auto;
+    align-items: baseline;
+    justify-content: space-evenly;
+    background-color: var(--background-color);
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+   
+ 
+    span{
+        font-size: 2rem;
+        color: var(--primary-color);
+    }
+ 
+    p{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--primary-color);
+    }
+   
+    a {
+        color: var(--font-color);
+        text-decoration: none;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+ 
+    a:hover {
+        background-color: var(--font-hover-background-color);
+        border-radius: 5px;
+    }
+ 
+    .question-button {
+        background-color: var(--primary-color);
+        color: var(--background-color);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+ 
+        a:hover {
+            background-color: var(--primary-color);
+            color: var(--secondary-background-color);
+        }
+    }
+ 
+}
+/* END HEADER */
+ 
+ 
+ 
+ 
 /* REVIEW */
 .review-box{
     width: 1100px;
     height: 400px;
     background-color: white;
     border-radius: 20px;
-    padding: 14px;
-
+    padding: 26px;
+ 
     textarea{
     height: 150px;
-    width: 900px;
+    width: 1050px;
     margin-top: 30px;
     background-color: #F1F6F2;
     resize: none;
     border-radius: 12px;    
-    padding: 12px;     
+    padding: 12px;    
     border-style: none;
     }
 }
-
+ 
 .submit-button{
     width: 140px;
     height: 60px;
     border-radius: 12px;
     border-style: none;
-    font-family: monospace, sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 20px;
-    margin-top: 60px;
-    background-color: white;
+    margin-top: 40px;
+    background-color: #155E43;
+    color: white;
+    display: block;
 }
-
+ 
 .review-drop-down{
     width: 200px;
     height: 40px;
     background-color: #F1F6F2;
     border-style: none;
-    border-radius: 8px; 
-    font-family: monospace, sans-serif;
+    border-radius: 8px;
+    font-family: Inter, sans-serif;
 }
-
+ 
+ 
 .section-border{
-    max-width: 1920px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 40px;
+p{
+    margin-bottom: 10px;
 }
-
+ 
+h3{
+    margin-bottom: 20px;
+}
+}
+ 
 h2{
     font-size: 30px;
+    margin-top: 60px;
 }
-
+ 
 h3{
-    font-size: 24px;
+    font-size: 32px;
     color: #155E43;
 }
-
+ 
 h4{
     font-size: 14px;
     color: #155E43;
 }
-
+ 
 .text-center{
     display: flex;
     justify-content: center;
-    
+    color: #207e5b;
 }
-
-
-#review-area{
-   
+ 
+ 
+footer{
+   margin-top: 60px;
+   background-color: white;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ 
+   img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-right: 15px;
+   }
 }
-
+ 
+.text-inline{
+    display:inline;
+}
+ 
 /* END REVIEW */
