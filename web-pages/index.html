@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>Document</title>
   <link rel="stylesheet" href="../css/style.css" />
 </head>
@@ -12,7 +12,7 @@
   <header>
     <nav class="navigation">
       <div>
-        <p><span>+</span> vooruit</p>
+        <h1><span>+</span> vooruit</h1>
       </div>
 
       <div class="links">
@@ -38,70 +38,58 @@
       </div>
     </section>
 
-    <section class="vakken">
-      <div>
-        <h2>Een voorbeeld van je vakken</h2>
-        <p>Minder Verassingen. Meer vertrouwen in je volgende periode</p>
-        <p>ontdek je volgende periode</p>
-      </div>
-
-      <div class="vakken-container">
-        <article>
-          <div>
-            <div class="logo-container">
-              <img src="../images/logo.png"></img>
-            </div>
-            <p>Periode 1</p>
-
-            <p>Rekennen</p>
-            <p>Hier leer je rekennen enzo.</p>
-
-            <!-- ster icoon -->
-            <p>3,7 . 40 reviews</p>
-          </div>
-        </article>
-
-        <article>
+    <div class="section-text">
+      <h2>Een voorbeeld van jou vakken</h2>
+      <p>Minder verassingen. Meer vertrouwen in je volgende periode</p>
+    </div>
+    <section class="card-section">
+      <article class="card">
+        <div class="card-image-container">
           <img src="../images/logo.png" alt="" />
-          <div>
-            <p>Periode 1</p>
-            <p>Nederlands</p>
-            <p>Hier leer je Nederlands enzo.</p>
+          <p>Periode 1</p>
+        </div>
+        <h2>Programmeren</h2>
+        <p>ICT</p>
+        <p>Van je eerste regel code tot je eigen kleine applicatie.</p>
+        <h2 class="review">☆4,6-38 reviews</h2>
+      </article>
 
-            <!-- ster icoon -->
-            <p>4 . 35 reviews</p>
-          </div>
-        </article>
-
-        <article>
+      <article class="card">
+        <div class="card-image-container">
           <img src="../images/logo.png" alt="" />
-          <div>
-            <p>Periode 1</p>
-            <p>Engels</p>
-            <p>Hier leer je Engels enzo.</p>
+          <p>Periode 2</p>
+        </div>
+        <h2></h2>
+        <p>ICT</p>
+        <p>Van je eerste regel code tot je eigen kleine applicatie.</p>
+        <h2 class="review">☆4,6-38 reviews</h2>
+      </article>
 
-            <!-- ster icoon -->
-            <p>2,7 . 12 reviews</p>
-          </div>
-        </article>
-
-        <article>
+      <article class="card">
+        <div class="card-image-container">
           <img src="../images/logo.png" alt="" />
-          <div>
-            <p>Periode 3</p>
+          <p>Periode 1</p>
+        </div>
+        <h2>Programmeren</h2>
+        <p>ICT</p>
+        <p>Van je eerste regel code tot je eigen kleine applicatie.</p>
+        <h2 class="review">☆4,6-38 reviews</h2>
+      </article>
 
-            <p>Burgerschap</p>
-            <p>Hier leer je Burgerschap enzo.</p>
-
-            <!-- ster icoon -->
-            <p>4,5 . 23 reviews</p>
-          </div>
-        </article>
-      </div>
+      <article class="card">
+        <div class="card-image-container">
+          <img src="../images/logo.png" alt="" />
+          <p>Periode 2</p>
+        </div>
+        <h2>Programmeren</h2>
+        <p>ICT</p>
+        <p>Van je eerste regel code tot je eigen kleine applicatie.</p>
+        <h2 class="review">☆4,6-38 reviews</h2>
+      </article>
     </section>
 
     <!-- Wat studenten zeggen en vragen van studenten -->
-    <section>
+    <section class="review-section">
       <!-- wat studenten zegggen -->
       <div>
         <div>
@@ -109,17 +97,17 @@
           <p>Een eerlijke mening van iemand die het al heeft gedaan</p>
         </div>
 
-        <article>
-          <p>Programmeren . Periode 1</p>
-          <p>Je hoeft Echt nog geen code te kunnen</p>
+        <article class="review-card">
+          <p class="primary-color">Programmeren . Periode 1</p>
+          <p class="review-text primary-color">Je hoeft Echt nog geen code te kunnen</p>
           <p>Ik begon zonder ervaring. Als je elke week de opdrachten bijhoudt,
             kom je al een heel eind. Begin wel op tijd met het eindproject
           </p>
         </article>
 
-        <article>
-          <p>Design . Periode 2</p>
-          <p>Veel doen, weinig stilzitten</p>
+        <article class="review-card">
+          <p class="primary-color">Design . Periode 2</p>
+          <p class="review-text primary-color">Veel doen, weinig stilzitten</p>
           <p>Fijn vak als je graag praktisch bezig bent. De feedbackmomenten waren
             voor mij het meest waardevol
           </p>
@@ -133,24 +121,25 @@
           <p>Hier staan veelgestelde vragen</p>
         </div>
 
-        <article>
-          <p>Programmeren</p>
-          <p>Welke laptop heb ik nodig voor programmeren?</p>
+        <article class="review-card">
+          <p class="primary-color">Programmeren</p>
+          <p class="review-text primary-color">Welke laptop heb ik nodig voor programmeren?</p>
           <p>6 antwoorden</p>
         </article>
-         <article>
-          <p>Bedrijfseconommie</p>
-          <p>Hoeveel tijd ben je buiten de lessen kwijt?</p>
+        <article class="review-card">
+          <p class="primary-color">Bedrijfseconommie</p>
+          <p class="review-text primary-color">Hoeveel tijd ben je buiten de lessen kwijt?</p>
           <p>3 antwoorden</p>
         </article>
-         <article>
-          <p>Design</p>
-          <p>Moet je al met Figma kunnen werken?</p>
+        <article class="review-card">
+          <p class="primary-color">Design</p>
+          <p class="review-text primary-color">Moet je al met Figma kunnen werken?</p>
           <p>8 antwoorden</p>
         </article>
       </div>
 
     </section>
+
   </main>
 
   <footer></footer>
