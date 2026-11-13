@@ -218,6 +218,13 @@ h3 {
   border-radius: 10px;
   border: solid 1px var(--border-color);
   padding: 15px;
+
+  .option-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }
 
 .review-text {
