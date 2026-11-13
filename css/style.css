@@ -223,6 +223,12 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-decoration: none;
+
+    a{
+      cursor: pointer;
+    }
+
   }
 
 }
